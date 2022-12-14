@@ -64,7 +64,7 @@ img {
     flex-basis: 100%;
 }
 
-/*stile secondo contenitore*/
+/*stile secondo, terzo, quarto contenitore*/
 .debug .row-2>.col{
     border: 2px dashed black;
     min-height: 300px;
@@ -78,10 +78,18 @@ img {
     background-color: pink;
 }
 
+.debug section>.terzo{
+    background-color: lightgray;
+}
+
 .row-2>.col-60{
     flex-basis: 60%;
 }
 
 .row-2>.col-40{
     flex-basis: 40%;
+}
+
+.row-2.reverse{
+    flex-direction: row-reverse;
 }
