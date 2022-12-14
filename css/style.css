@@ -93,3 +93,10 @@ img {
 .row-2.reverse{
     flex-direction: row-reverse;
 }
+
+/*quinto contenitore*/
+
+.debug .container.green .col{
+    background-color: green;
+    min-height: 500px;
+}
