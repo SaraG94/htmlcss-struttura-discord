@@ -100,3 +100,54 @@ img {
     background-color: green;
     min-height: 500px;
 }
+
+/*footer*/
+
+.debug footer{
+    background-color: #23272A;
+}
+
+.debug .row-5>.col{
+    background-color: #20B2AA;
+    border: 2px dashed white;
+    min-height: 400px;
+}
+
+.debug .row-5>.col-28{
+    background-color: #F08080;
+}
+
+
+.row-5>.col{
+    flex-basis: 18%;
+}
+
+.row-5>.col-28{
+    flex-basis: 28%;
+}
+
+/*ultimo container*/
+.debug .ultimo{
+    border-top: 1px solid white;
+}
+
+.debug .container.last>.row-last{
+    background-color: #76EAC3;
+}
+
+.debug .row-last>.col{
+    background-color: pink;
+    border: 2px dashed black;
+    padding:2px;
+}
+
+
+
+.row-last>.col{
+    flex-basis: 5%;
+}
+
+.container>.row-last{
+    justify-content: space-between;
+    align-items: center;
+}
