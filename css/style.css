@@ -11,11 +11,11 @@ img {
 .container{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .debug> header{
     min-height: 50px;
-    padding: 20px;
     background-color: lightskyblue; 
 }
 
@@ -42,6 +42,7 @@ img {
     text-align: right;
 }
 
+/* style primo contenitore*/
 .little-container{
     max-width: 800px;
     margin: 0 auto;    
@@ -49,16 +50,38 @@ img {
 
 .debug .first{
     background-color: blue;
-    min-height: 200px;
-    padding: 10px;
+    min-height: 150px;
+    padding: 20px;
 }
 
 .debug .row-first>.col{
     background-color: palevioletred;
-    min-height: 200px;
+    min-height: 150px;
     border: 2px dashed black;
 }
 
 .row-first>.col{
     flex-basis: 100%;
+}
+
+/*stile secondo contenitore*/
+.debug .row-2>.col{
+    border: 2px dashed black;
+    min-height: 300px;
+}
+
+.debug .row-2>.col-60{
+    background-color: rgb(59, 164, 230);
+}
+
+.debug .row-2>.col-40{
+    background-color: pink;
+}
+
+.row-2>.col-60{
+    flex-basis: 60%;
+}
+
+.row-2>.col-40{
+    flex-basis: 40%;
 }
