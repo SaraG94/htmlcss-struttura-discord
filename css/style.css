@@ -24,10 +24,6 @@ img {
     border: 2px dashed black;
 }
 
-.debug .container{
-    padding: 20px;
-    border: 2px dashed black;
-}
 
 .row{
     display:flex
@@ -44,4 +40,22 @@ img {
 
 .row-3 .col:last-child{
     text-align: right;
+}
+
+.little-container{
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px dashed black;
+    
+}
+
+.debug .first{
+    background-color: blue;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.debug .little-container>.row{
+    background-color: palevioletred;
+    min-height: 200px;
 }
