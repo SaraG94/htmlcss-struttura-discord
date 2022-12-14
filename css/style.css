@@ -44,9 +44,7 @@ img {
 
 .little-container{
     max-width: 800px;
-    margin: 0 auto;
-    border: 2px dashed black;
-    
+    margin: 0 auto;    
 }
 
 .debug .first{
@@ -55,7 +53,12 @@ img {
     padding: 10px;
 }
 
-.debug .little-container>.row{
+.debug .row-first>.col{
     background-color: palevioletred;
     min-height: 200px;
+    border: 2px dashed black;
+}
+
+.row-first>.col{
+    flex-basis: 100%;
 }
