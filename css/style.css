@@ -8,6 +8,10 @@ img {
 	max-width: 100%;
 }
 
+.row{
+    display:flex
+}
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
@@ -22,11 +26,6 @@ img {
 .debug .row-3>.col{
     background-color: darkgoldenrod;
     border: 2px dashed black;
-}
-
-
-.row{
-    display:flex
 }
 
 .row-3>.col{
@@ -117,13 +116,12 @@ img {
     background-color: #F08080;
 }
 
-
 .row-5>.col{
-    flex-basis: 18%;
+    flex-basis: calc(100% /6);
 }
 
 .row-5>.col-28{
-    flex-basis: 28%;
+    flex-basis: calc(100% /3);
 }
 
 /*ultimo container*/
@@ -141,10 +139,6 @@ img {
     padding:2px;
 }
 
-.container.last>.row-last{
-    min-height: 50px;
-}
-
 .row-last>.col{
     flex-basis: 5%;
 }
@@ -152,4 +146,5 @@ img {
 .container>.row-last{
     justify-content: space-between;
     align-items: center;
+    min-height: 50px;
 }
