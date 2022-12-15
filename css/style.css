@@ -141,7 +141,9 @@ img {
     padding:2px;
 }
 
-
+.container.last>.row-last{
+    min-height: 50px;
+}
 
 .row-last>.col{
     flex-basis: 5%;
